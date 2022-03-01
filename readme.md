@@ -105,6 +105,10 @@
   - Go-basiert, Hobbyprojekt, Rust wäre evtl. der bessere Kandidat
   - SWC ist wohl schneller, Rust-basiert und flexibler
   - ESBuild wird von Remix verwendet
+- Compiler für CSS: [Parcel CSS](https://github.com/parcel-bundler/parcel-css)
+  - Parser und Minifier im Stile von PostCSS
+  - Browserslist Integration
+  - 100x schneller als CSSNano
 
 # Static Site
 
@@ -184,6 +188,8 @@
   - Ein Vielzahl an Hooks für diverse Einsatzzwecke
 - Gesture Hooks: [Use Gesture](https://github.com/pmndrs/use-gesture)
   - Kombinierbar mit React Spring + tolle Demos
+- Markdown: [MDX](https://mdxjs.com)
+  - Wohl die eleganteste Lösung für die Integration von Markdown-Inhalten in Mitten von ReactJS
 
 # React State Management
 
@@ -204,6 +210,8 @@
   - Interessanter Blog-Post vom Autor: [Valtio vs. Jotai](https://blog.axlight.com/posts/when-i-use-valtio-and-when-i-use-jotai/)
 - State Management: [MobX State Tree](https://mobx-state-tree.js.org/intro/welcome)
   - Reduzierter Boilerplate aber die Typisierung wirkt irgendwie doppelt zu TypeScript
+- State Management: [NanoStores](https://github.com/nanostores/nanostores)
+  - Liest sich ein wenig wie *Jotai* von den Leuten hinter vielen PostCSS-Sachen (Andrey Sitnik, ...)
 
 # React Animation
 
@@ -227,6 +235,11 @@
 - CSS Reset: [CSS Reset by Josh](https://www.joshwcomeau.com/css/custom-css-reset/ )
 - CSS Schatten: [Shadows](https://shadows.brumm.af/)
   - [Mehrere gestapelte Schatten statt einer ist natürlicher](https://www.joshwcomeau.com/css/designing-shadows/)
+- CSS Gradient: [Non Boring Gradient](https://non-boring-gradients.netlify.app)
+  - Sehr schön. Interpolation im LAB-Raum verbessert Übergänge massiv.
+  - Basiert auf ColorJS
+- CSS Gradient: [Gradient Generator](https://www.joshwcomeau.com/gradient-generator/)
+  - Alternative zu dem oben Josh Comeau und [Blog-Post](https://www.joshwcomeau.com/css/make-beautiful-gradients/)
 
 # JS Libraries
 
@@ -236,6 +249,15 @@
   - Von den Autoren von MomentJS. Auf Basis von Intl. Immutable, Zeitzonen, I18N, etc.
 - Datenverarbeitung: [Immer](https://immerjs.github.io/immer/)
   - Pragmatische Manipulation komplexer immutable Datenstrukturen
+- Farben: [ChromaJS](https://vis4.net/chromajs/)
+  - LAB Farben, Delta-E-Vergleich, ... umfangreich
+- Farben: [ColorJS](https://colorjs.io)
+  - Modernere Variante von *ChromeJS*
+  - Von Lea Verou
+- GUID: [NanoID](https://github.com/ai/nanoid)
+  - Moderner, kleiner, schnelle GUID Generator
+- Events: [NanoEvents](https://github.com/ai/nanoevents)
+  - Super kleine Library für Custom Events
 
 # Fonts
 
@@ -246,3 +268,5 @@
 
 - Shell Scripts: [ZX](https://github.com/google/zx)
   - Scripting mit Node v16 und netter Integration in Bash Child Prozesse
+- NPM Dependencies: [DepCheck](https://github.com/depcheck/depcheck)
+  - Erkennt Dependencies, die nicht (mehr) verwendet werden.
