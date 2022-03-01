@@ -174,6 +174,8 @@
   - Hook-basiert. Demo sehr imposant. Erinnert an frühere qooxdoo-Challenges.
 - Charting: [React Charts](https://react-charts.tanstack.com)
   - Moderne Lösung auf Basis von D3 und gut in React integriert
+- Charting: [ReaViz](https://github.com/reaviz/reaviz)
+  - Moderne Lösung auf Basis von D3 und gut in React integriert
 - Data Table: [React Table](https://github.com/TanStack/react-table)
   - Headless, ohne Styles, Relativ klein + aber aktuell 02-2022 noch Alpha
 - Data Loading: [SWR](https://swr.vercel.app)
@@ -190,6 +192,8 @@
   - Kombinierbar mit React Spring + tolle Demos
 - Markdown: [MDX](https://mdxjs.com)
   - Wohl die eleganteste Lösung für die Integration von Markdown-Inhalten in Mitten von ReactJS
+- Tracking: [React Tracking](https://github.com/nytimes/react-tracking)
+  - Deklarative [Tracking Lösung der NYT](https://open.nytimes.com/introducing-react-tracking-declarative-tracking-for-react-apps-2c76706bb79a)
 
 # React State Management
 
@@ -270,3 +274,8 @@
   - Scripting mit Node v16 und netter Integration in Bash Child Prozesse
 - NPM Dependencies: [DepCheck](https://github.com/depcheck/depcheck)
   - Erkennt Dependencies, die nicht (mehr) verwendet werden.
+
+# Lösungen
+
+- [Senden bei Verlassen](https://css-tricks.com/send-an-http-request-on-page-exit/)
+  - Keep Alive vs. SendBeacon
