@@ -137,9 +137,9 @@
 - E2E Testing: **[Playwright](https://playwright.dev)**
   - "Usage" steigt dramatisch. Scheinbar bald beliebter als Cypress.
   - Vergleich zu Cypress:
-    - https://medium.com/geekculture/is-playwright-better-than-cypress-playwright-vs-cypress-151bd65a224f
-    - https://cathalmacdonnacha.com/cypress-vs-playwright-which-is-best-for-e2e-testing
-    - https://alisterbscott.com/2021/10/27/five-reasons-why-playwright-is-better-than-cypress/
+    - [Artikel #1](https://medium.com/geekculture/is-playwright-better-than-cypress-playwright-vs-cypress-151bd65a224f)
+    - [Artikel #2](https://cathalmacdonnacha.com/cypress-vs-playwright-which-is-best-for-e2e-testing)
+    - [Artikel #3](https://alisterbscott.com/2021/10/27/five-reasons-why-playwright-is-better-than-cypress/)
 - E2E Testing: [Cypress](https://www.cypress.io)
   - "Satisfaction" sinkt aktuell. "Interest" auch. StateOfJS 2021
 - Testing Utilities: **[TestingLibrary](https://testing-library.com)**
@@ -170,6 +170,8 @@
 
 # React Components
 
+- UI Kits: [Radix](https://www.radix-ui.com/)
+  - Großes, ungestyltes Framework für UI Komponenten
 - Virtualization/Windowing: [React Virtual](https://react-virtual.tanstack.com)
   - Hook-basiert. Demo sehr imposant. Erinnert an frühere qooxdoo-Challenges.
 - Charting: [React Charts](https://react-charts.tanstack.com)
@@ -235,6 +237,9 @@
 - React Styling: [Vanilla Extract](https://vanilla-extract.style)
   - Type-safe, static compilation, CSS Variables
   - CSS Modules Nachfolger quasi
+- React Styling: [Stitches](https://stitches.dev)
+  - Erscheint konzeptionell sehr ähnlich zu Vanilla Extract.
+  - Von Modulz.com (bauen UI-Builder für React) genauso wie Radix-UI
 - CSS Reset: [Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)
 - CSS Reset: [CSS Reset by Josh](https://www.joshwcomeau.com/css/custom-css-reset/ )
 - CSS Schatten: [Shadows](https://shadows.brumm.af/)
