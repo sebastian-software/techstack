@@ -26,6 +26,8 @@
   - Hosting auf Vercel, AWS, Azure, etc.
   - Präferiert von Wes Bos und Max Stoiber. Wohooo.
   - Backend Datenbank als MongoDB bzw. via Prisma
+- Bild-Bearbeitung: [Sharp](https://github.com/lovell/sharp)
+  - VIPS-basiert für gute Performance
 
 # Datenbank
 
