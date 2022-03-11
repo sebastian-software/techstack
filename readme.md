@@ -39,6 +39,15 @@
   - Support für Postgres, Amazon Aurora und Google BigQuery
 - ORM für Datenbank: [Prisma]()
   - Support für Postgres, MySQL, SQLite, ...
+  - [Empfohlen von Max Stoiber](https://bedrock.mxstbr.com/tools/prisma/)
+
+# Services
+
+- [Postmark App](https://postmarkapp.com/#node)
+  - Möglicherweise der netteste E-Mail Service mit gutem Support
+  - Empfohlen von Max Stoiber
+- [GraphCDN](https://graphcdn.io)
+  - GraphQL Edge Caching
 
 # Frameworks
 
@@ -133,6 +142,8 @@
 - Framework: [NextJS](https://nextjs.org)
   - Fast schon der Klassiker für hybride Apps
   - Endlos viele Features aber etliches auch baked-in (CSS-in-JS)
+- Template: [Bedrock](https://bedrock.mxstbr.com)
+  - Nicht wirklich ein Framework aber ein sehr schön zusammengesetztes Set als Tools
 
 # Testing
 
@@ -172,7 +183,7 @@
 
 # React Components
 
-- UI Kits: [Radix](https://www.radix-ui.com/)
+- UI Kits: **[Radix](https://www.radix-ui.com/)**
   - Großes, ungestyltes Framework für UI Komponenten
 - Virtualization/Windowing: [React Virtual](https://react-virtual.tanstack.com)
   - Hook-basiert. Demo sehr imposant. Erinnert an frühere qooxdoo-Challenges.
@@ -269,6 +280,8 @@
   - Moderner, kleiner, schnelle GUID Generator
 - Events: [NanoEvents](https://github.com/ai/nanoevents)
   - Super kleine Library für Custom Events
+- GraphQL Client: [URQL](https://formidable.com/open-source/urql/)
+  - Alternativer leichtgewichtiger GraphQL-Client der viel Lob bekommt
 
 # Fonts
 
