@@ -66,6 +66,7 @@
   - Will die diversen Probleme anderer Plattformen gelöst haben.
   - Integration mit Supabase + Hasura vorbereitet
   - Die React-Integration sieht super smooth aus
+  - Empfohlen von Max Stoiber
 - Authentication: **[MagicLink](https://magic.link)**
   - Dreht sich alles um Passwort-freie Logins
   - Pay per Login Bezahlmodell. Interessante Idee.
