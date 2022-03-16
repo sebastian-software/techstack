@@ -1,6 +1,8 @@
 # Begriffe
 
 - JAMStack: Vorgenerierte Apps und Webseiten mit Datenzugriff über Microservices
+  - "JAMstack stands for Javascript, APIs, and Markup."
+- [Forget Docker - the Future is Jamstack](https://hackernoon.com/forget-docker-the-future-is-jamstack-aae5bcaf4616)
 
 # NodeJS
 
@@ -283,6 +285,8 @@
   - Super kleine Library für Custom Events
 - GraphQL Client: [URQL](https://formidable.com/open-source/urql/)
   - Alternativer leichtgewichtiger GraphQL-Client der viel Lob bekommt
+- State Machine: [XState](https://github.com/statelyai/xstate)
+  - Finite State Machines, die auch gezeichnet werden können - für komplexe Zustandsabbildungen sicher hilfreich
 
 # Fonts
 
