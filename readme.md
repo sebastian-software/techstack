@@ -50,6 +50,8 @@
   - Empfohlen von Max Stoiber
 - [GraphCDN](https://graphcdn.io)
   - GraphQL Edge Caching
+- [Incident.IO](https://incident.io)
+  - Error Reporting für Webangebote
 
 # Frameworks
 
