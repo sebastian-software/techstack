@@ -39,7 +39,7 @@
   - Effektiv eine Art API-Layer auf Datenbanken, GraphQL- bzw. REST-Zugriff möglich
   - Incl. API Gateway, Authorization, Caching, etc.
   - Support für Postgres, Amazon Aurora und Google BigQuery
-- ORM für Datenbank: [Prisma]()
+- ORM für Datenbank: [Prisma](https://www.prisma.io)
   - Support für Postgres, MySQL, SQLite, ...
   - [Empfohlen von Max Stoiber](https://bedrock.mxstbr.com/tools/prisma/)
 
@@ -52,6 +52,8 @@
   - GraphQL Edge Caching
 - [Incident.IO](https://incident.io)
   - Error Reporting für Webangebote
+- [ContentLayer](https://www.contentlayer.dev)
+  - Service um Daten in Frontend Frameworks zu importieren incl. Hotloading, Type-Safety, etc.
 
 # Frameworks
 
@@ -306,3 +308,7 @@
 
 - [Senden bei Verlassen](https://css-tricks.com/send-an-http-request-on-page-exit/)
   - Keep Alive vs. SendBeacon
+- [Fluid Typography With CSS clamp](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
+  - [Weiterer Artikel zum Thema](https://piperhaywood.com/fluid-type-sizes-and-spacing/)
+- [FavIcons in 2022](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
+  von Andrey Sitnik - guter Ansatz
