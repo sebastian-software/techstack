@@ -66,6 +66,16 @@
   - Arbeitet mit lokalem Markdown, Contentful (geplant) und Sanity/Notion (evtl.)
   - Aktuell unterstützt es nur NextJS mit Remix, Astro etc. in Planung.
 
+# GraphQL
+
+- [Envelop](https://www.envelop.dev)
+  - Plugin-System für GraphQL-Server. Der Yoga-Server beinhaltet das System bereits.
+  - Unterstützt Dienste wie Sentry, Auth0, etc.
+  - Weiterhin Funktionen wie Depth-Analyse, Caches, etc.
+- [GraphQL Armor](https://github.com/Escape-Technologies/graphql-armor)
+  - Absicherung von GraphQL APIs mit Depth-Analyse etc.
+  - Für den Yoga- und Apollo-Server
+
 # Frameworks
 
 - JAMStack Framework: [Redwood](https://github.com/redwoodjs/redwood/blob/main/README.md)
@@ -100,7 +110,12 @@
 - Datenbank + Authentification: [Supabase](https://github.com/supabase/supabase)
   - Bietet wie Firebase auch Authentification mit an
 
-# Hosting
+# Function Hosting
+
+- [Middy - NodeJS Middleware](https://middy.js.org) für AWS Lambda
+  - Reduziert den Boilerplate, wenn Code auf Lambda laufen soll
+
+# Edge Hosting
 
 - Edge Hosting: [Netlify Edge Handlers](https://www.netlify.com/products/edge/edge-handlers/)
   - Early Access (Stand 2022, Februar)
@@ -110,7 +125,9 @@
 - Edge Hosting: [Vercel Edge Functions](https://vercel.com/docs/concepts/functions/edge-functions)
   - Middleware Supprt
   - Beta (Stand 2022, Februar)
-- Worldwide Deploy: [Fly.io](https://fly.io)
+
+# Static Hosting
+
 - Static Hosting: [Cloudflare Pages](https://pages.cloudflare.com)
   - Github und Gitlab Integration
 
@@ -308,6 +325,10 @@
   - Alternativer leichtgewichtiger GraphQL-Client der viel Lob bekommt
 - State Machine: [XState](https://github.com/statelyai/xstate)
   - Finite State Machines, die auch gezeichnet werden können - für komplexe Zustandsabbildungen sicher hilfreich
+
+# package.json
+
+- [Entry-Punkte definieren - wie Jotai es macht](https://blog.axlight.com/posts/how-jotai-specifies-package-entry-points/)
 
 # Fonts
 
