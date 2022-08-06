@@ -4,12 +4,21 @@
   - "JAMstack stands for Javascript, APIs, and Markup."
 - [Forget Docker - the Future is Jamstack](https://hackernoon.com/forget-docker-the-future-is-jamstack-aae5bcaf4616)
 
+# MacOS
+
+- [TouchID für `sudo`](https://sixcolors.com/post/2020/11/quick-tip-enable-touch-id-for-sudo/)
+
+# Architektur
+
+- [12 Factor App](https://12factor.net)
+
 # NodeJS
 
 - HTTP Server: [Fastify](https://www.fastify.io)
   - TS Ready
   - Async/Await
   - 91% im StateOfJS für 2021
+  - Version 4 ist ein großer Schritt nach vorne. Dabei ist die Lösung immer sehr API-stabil.
 - Runtime: [DENO](https://deno.land)
   - Basis: Rust + V8
   - NodeJS Server sollten auf DENO setzen, damit Zugriffe auf vieles per Default verboten sind
@@ -54,6 +63,8 @@
   - Error Reporting für Webangebote
 - [ContentLayer](https://www.contentlayer.dev)
   - Service um Daten in Frontend Frameworks zu importieren incl. Hotloading, Type-Safety, etc.
+  - Arbeitet mit lokalem Markdown, Contentful (geplant) und Sanity/Notion (evtl.)
+  - Aktuell unterstützt es nur NextJS mit Remix, Astro etc. in Planung.
 
 # Frameworks
 
@@ -64,6 +75,9 @@
 - Serverless Backend: [NHost](https://nhost.io)
   - Integriert eine Vielzahl von Services (Auth, Datenbank via Hasura, File-Store, Emails) als Managed Plattform
   - Gute Plattform für Startups, Noch Beta, Relativ geringe Verbreitung
+- React Alternative: [SolidJS](https://www.solidjs.com)
+  - Viele viele gute Ideen und Ansätze
+  - Konzeptionell sehr React-nah (aus User-Sicht), aber technisch anders gelöst
 
 # Auth
 
@@ -245,6 +259,9 @@
   - Brilliante Lösung für Komponenten-Animationen
 - [React Spring](https://github.com/pmndrs/react-spring)
   - Gleiche Autoren wie *Jotai*
+- [Auto Animate](https://github.com/formkit/auto-animate)
+  - Schmeckt ein wenig nach Framer Motion aber Framework-übergreifen
+  - Klingt machbar... ist nur die Frage wie elegant das ist bzw. wie viel Overhead das bringt im Vergleich zu Pure-React.
 
 # Kurse
 
