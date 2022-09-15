@@ -107,6 +107,8 @@
 - Authentication: [Ory](https://www.ory.sh)
   - OpenSource, Hosted-Angebot (in dem Fall kommerziell)
   - Erscheint moderner als Keycloak
+- Authentication: [Stytch](https://stytch.com)
+  - "Stytch solutions are fully passwordless, while Auth0's are primarily password-based"
 - Datenbank + Authentification: [Supabase](https://github.com/supabase/supabase)
   - Bietet wie Firebase auch Authentification mit an
 
@@ -254,9 +256,9 @@
 
 - State Management: [Zustand](https://github.com/pmndrs/zustand)
   - In der Tat sehr schön. Einfaches globales State-Management mit sehr wenig Boilerplate und Hooks.
-  - Gleiche Autoren wie das atomare *Jotai*
+  - Gleiche Autoren wie das atomare _Jotai_
 - State Management: [Recoil](https://recoiljs.org/)
-  - Verglichen mit *Zustand* hat es den Vorteil der hohen Modularität (Atoms)
+  - Verglichen mit _Zustand_ hat es den Vorteil der hohen Modularität (Atoms)
   - Macht viel viel Sinn. Einzig sonderbar ist, dass man den `key` braucht, obwohl man ja immer mit State-Instanzen arbeitet.
   - Bietet Snapshots und damit Recoil Dev Tools aber noch keine Browser-Tools (Stand 02-2022)
 - State Management: **[Jotai](https://jotai.org)** [Kurs](https://egghead.io/lessons/react-share-state-between-react-components-with-jotai-useatom)
@@ -268,14 +270,14 @@
 - State Management: [MobX State Tree](https://mobx-state-tree.js.org/intro/welcome)
   - Reduzierter Boilerplate aber die Typisierung wirkt irgendwie doppelt zu TypeScript
 - State Management: [NanoStores](https://github.com/nanostores/nanostores)
-  - Liest sich ein wenig wie *Jotai* von den Leuten hinter vielen PostCSS-Sachen (Andrey Sitnik, ...)
+  - Liest sich ein wenig wie _Jotai_ von den Leuten hinter vielen PostCSS-Sachen (Andrey Sitnik, ...)
 
 # React Animation
 
 - [Framer Motion](https://github.com/framer/motion)
   - Brilliante Lösung für Komponenten-Animationen
 - [React Spring](https://github.com/pmndrs/react-spring)
-  - Gleiche Autoren wie *Jotai*
+  - Gleiche Autoren wie _Jotai_
 - [Auto Animate](https://github.com/formkit/auto-animate)
   - Schmeckt ein wenig nach Framer Motion aber Framework-übergreifen
   - Klingt machbar... ist nur die Frage wie elegant das ist bzw. wie viel Overhead das bringt im Vergleich zu Pure-React.
@@ -295,7 +297,7 @@
   - Erscheint konzeptionell sehr ähnlich zu Vanilla Extract.
   - Von Modulz.com (bauen UI-Builder für React) genauso wie Radix-UI
 - CSS Reset: [Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)
-- CSS Reset: [CSS Reset by Josh](https://www.joshwcomeau.com/css/custom-css-reset/ )
+- CSS Reset: [CSS Reset by Josh](https://www.joshwcomeau.com/css/custom-css-reset/)
 - CSS Schatten: [Shadows](https://shadows.brumm.af/)
   - [Mehrere gestapelte Schatten statt einer ist natürlicher](https://www.joshwcomeau.com/css/designing-shadows/)
 - CSS Gradient: [Non Boring Gradient](https://non-boring-gradients.netlify.app)
@@ -315,7 +317,7 @@
 - Farben: [ChromaJS](https://vis4.net/chromajs/)
   - LAB Farben, Delta-E-Vergleich, ... umfangreich
 - Farben: [ColorJS](https://colorjs.io)
-  - Modernere Variante von *ChromeJS*
+  - Modernere Variante von _ChromeJS_
   - Von Lea Verou
 - GUID: [NanoID](https://github.com/ai/nanoid)
   - Moderner, kleiner, schnelle GUID Generator
