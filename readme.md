@@ -352,3 +352,7 @@
   - [Weiterer Artikel zum Thema](https://piperhaywood.com/fluid-type-sizes-and-spacing/)
 - [FavIcons in 2022](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
   von Andrey Sitnik - guter Ansatz
+
+# Infrastruktur Allgemein
+
+- Internationale Payments an Freelancer und Angestellte: [Deel](https://www.deel.com)
