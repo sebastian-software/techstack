@@ -119,6 +119,9 @@
 
 # Edge Hosting
 
+- InfoWorld: [How Cloudflare emerged to take on AWS, Azure, and GCP](https://www.infoworld.com/article/3668197/how-cloudflare-emerged-to-take-on-aws-azure-and-gcp.html)
+- Blog Post: [Cloud Computing without Containers](https://blog.cloudflare.com/cloud-computing-without-containers/)
+
 - Edge Hosting: [Netlify Edge Handlers](https://www.netlify.com/products/edge/edge-handlers/)
   - Early Access (Stand 2022, Februar)
 - Edge Hosting: [Cloudflare Workers](https://workers.cloudflare.com)
@@ -249,6 +252,8 @@
   - Wohl die eleganteste Lösung für die Integration von Markdown-Inhalten in Mitten von ReactJS
 - Tracking: [React Tracking](https://github.com/nytimes/react-tracking)
   - Deklarative [Tracking Lösung der NYT](https://open.nytimes.com/introducing-react-tracking-declarative-tracking-for-react-apps-2c76706bb79a)
+- Virtual Rendering: [React Window](https://github.com/bvaughn/react-window)
+  - Nach React Virtualized die neue "Standard"-Lösung für Windowing
 
 # React State Management
 
